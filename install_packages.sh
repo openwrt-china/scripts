@@ -9,7 +9,7 @@ opkg install luci-i18n-opkg-zh-cn
 # 安装 ddns
 opkg install luci-app-ddns
 opkg install luci-i18n-ddns-zh-cn
-opkg install ddns-scripts_cloudflare.com-v4
+opkg install ddns-scripts-cloudflare
 
 # Linksys
 opkg install luci-app-advanced-reboot
