@@ -1,7 +1,5 @@
 #!/bin/ash
 
-opkg update
-
 # 安装语言包
 opkg install luci-i18n-base-zh-cn
 opkg install luci-i18n-opkg-zh-cn
@@ -22,5 +20,5 @@ opkg install luci-i18n-wol-zh-cn
 opkg install luci-banip
 opkg install luci-i18n-banip-zh-cn
 
-# 安装常用包
-opkg install git-http
+# WireGuard
+opkg install luci-proto-wireguard luci-app-wireguard luci-i18n-wireguard-zh-cn wireguard-tools qrencode
