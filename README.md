@@ -18,7 +18,7 @@ cd scripts
 
 系统，计划任务，添加：
 
-```
+```text
 # 分时日月周
 # 每天凌晨03点30分执行自动更新
 30 3 * * * /root/autoupgrade.sh
